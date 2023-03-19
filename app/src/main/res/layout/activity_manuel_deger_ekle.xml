@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.ManuelDegerEkle" >
+
+
+    <EditText
+        android:id="@+id/metanekle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="MEtan"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+         />
+
+    <EditText
+        android:id="@+id/butanekle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Bütan"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+          />
+
+    <EditText
+        android:id="@+id/propanekle"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_margin="10dp"
+        android:hint="Propan"
+         />
+
+    <EditText
+        android:id="@+id/coekle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="CO"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+         />
+
+    <EditText
+        android:id="@+id/havaekle"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Temiz hava"
+        android:inputType="textPersonName"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/tarihekle"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Tarih"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+         />
+
+
+    <Button
+        android:id="@+id/degerEkle"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="DEĞER EKLE" />
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ui.dashboard.DegerAdapter">
+
+
+    <TextView
+        android:id="@+id/metan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="3dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/butan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="3dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/propan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="3dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/co"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="3dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/temizHava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="3dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tarih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="3dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/userida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="3dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/dida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="3dp"
+        android:text="TextView" />
+</LinearLayout>
+

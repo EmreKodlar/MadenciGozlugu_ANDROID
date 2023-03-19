@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".blueToothAyar"
+    android:padding="20dp"
+    android:layout_margin="20dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/cihazgetir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cihaz Getir"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:id="@+id/cihazbagla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cihaza Bağlan"
+        android:layout_margin="20dp" />
+
+
+    <TextView
+        android:id="@+id/yaziii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=" "
+        android:padding="20dp"
+
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/digersayfa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Uygulamaya Dön"
+        android:layout_margin="20dp" />
+
+</LinearLayout>
